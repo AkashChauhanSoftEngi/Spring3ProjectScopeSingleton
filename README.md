@@ -1,6 +1,6 @@
 # Spring3ProjectSingletonObject
 
-* Spring 3 + IOC (Core Container) + Singleton Objects(Scope, by default), Example
+* Spring 3 + IOC (Core Container) + Scope(Singleton, by default), Example
 * By default object behave like singleton as only one object is created, in this case if you call getBean method multiple times,
   container sends only one/same object reference to the JVM and would not create multiple objects
 * Used BeanFactory Interface, and used XmlBeanFactory Implementation class
